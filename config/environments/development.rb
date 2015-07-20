@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+
+  ENV['OMNIAUTH_PROVIDER_KEY'] = "234566673266391";
+  ENV['OMNIAUTH_PROVIDER_SECRET'] = "bf59a6a50b4043088e0c7b48c0ff44bc";
 end

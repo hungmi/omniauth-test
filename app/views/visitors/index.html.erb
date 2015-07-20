@@ -1,2 +1,5 @@
 <h3>Welcome</h3>
+<%= link_to 'get sms', nexmo_message_path, method: :post, class:'btn btn-primary' %>
 <p><%= link_to 'Users:', users_path %> <%= User.count %> registered</p>
+
+<div class="fb-comments" data-href="http://localhost:5678/" data-width="600" data-numposts="10"></div>

@@ -18,6 +18,9 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'simple_form'
 gem 'slim-rails'
+gem 'twilio-ruby'
+gem 'nexmo'
+gem 'bcrypt'
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
